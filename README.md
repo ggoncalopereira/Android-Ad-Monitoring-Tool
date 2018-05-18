@@ -12,6 +12,8 @@ https://docs.mitmproxy.org/stable/
 Get urls from mitmproxy to check if they are ads or not:
 https://discourse.mitmproxy.org/t/extract-all-request-urls-from-a-session/26
 
+mitmdump > output.txt
+
 Databases to check ads:
 https://filterlists.com/
 https://easylist.to/
