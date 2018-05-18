@@ -5,25 +5,34 @@
  */
 package appserver;
 
+import java.util.ArrayList;
 import java.util.TreeSet;
 
 
 public class AppServer {
 
     static TreeSet<String> urls;
+    static ArrayList<String> adsDB;
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
          
         urls = new TreeSet<>();
+        adsDB = new ArrayList<>();
         // Get all information from mitmproy
-        MitMproxyHandler thread1 = new MitMproxyHandler(urls);
+        MitMproxyHandler thread1 = new MitMproxyHandler(urls,adsDB);
         thread1.start();
+        
+        Thread.sleep(10000);
+        //init thread to check if urls are or not ad
+        
+        AdHandler thread2 = new AdHandler(urls,adsDB);
+        thread2.start();
         /*
         // init TCP Connection and send it to client
-        AndroidConnection thread2 = new AndroidConnection(urls);
-        thread2.start();
+        AndroidConnection thread3 = new AndroidConnection(urls);
+        thread3.start();
         */
     }
     
