@@ -37,7 +37,7 @@ public class AdHandler extends Thread{
             System.out.println("AD: " + url);
             while(iterator2.hasNext()){
                 String ad = iterator2.next();
-                System.out.println("AD Compare: " + ad);
+                //System.out.println("AD Compare: " + ad);
                 if(url.contains(ad)){
                     System.out.println("Found Ad");
                 }

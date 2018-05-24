@@ -5,6 +5,7 @@
  */
 package appserver;
 
+import java.net.*;
 import java.util.ArrayList;
 import java.util.TreeSet;
 
@@ -13,27 +14,22 @@ public class AppServer {
 
     static TreeSet<String> urls;
     static ArrayList<String> adsDB;
+    static ServerSocket ss;
+    
     /**
      * @param args the command line arguments
+     * @throws java.lang.Exception
      */
-    public static void main(String[] args) throws InterruptedException {
-         
+    public static void main(String[] args) throws Exception {
+        ss = new ServerSocket(9999);
         urls = new TreeSet<>();
         adsDB = new ArrayList<>();
-        // Get all information from mitmproy
-        MitMproxyHandler thread1 = new MitMproxyHandler(urls,adsDB);
-        thread1.start();
-        
-        Thread.sleep(10000);
-        //init thread to check if urls are or not ad
-        
-        AdHandler thread2 = new AdHandler(urls,adsDB);
-        thread2.start();
-        /*
-        // init TCP Connection and send it to client
-        AndroidConnection thread3 = new AndroidConnection(urls);
-        thread3.start();
-        */
+
+        while(true){
+            Socket cs = ss.accept();
+            System.out.println("Nova conexão");
+            ServerWorker thread = new ServerWorker(cs,urls,adsDB);
+            thread.start();
+        }
     }
-    
 }
