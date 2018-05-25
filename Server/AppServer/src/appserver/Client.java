@@ -39,6 +39,7 @@ public class Client{
                 System.out.println("\nStop para parar o MitmProxy");
                 String option2 = inFromUser.readLine();
                 out.println(option2);
+                out.flush();
             }else{
                 System.out.println(answer);
                 break;
