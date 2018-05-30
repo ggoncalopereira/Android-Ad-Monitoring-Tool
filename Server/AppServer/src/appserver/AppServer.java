@@ -21,7 +21,7 @@ public class AppServer {
      * @throws java.lang.Exception
      */
     public static void main(String[] args) throws Exception {
-        ss = new ServerSocket(9999);
+        ss = new ServerSocket(9998);
         urls = new TreeSet<>();
         adsDB = new ArrayList<>();
 

@@ -1,49 +1,57 @@
 package com.example.group4.qosiapp;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
-
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.PrintWriter;
-import java.net.Socket;
-
-public class MainActivity extends AppCompatActivity {
-
-    public MainActivity() throws IOException {
-        String serverIP = "localhost";
-
-        //Establishing TCP connection with server
-        try (Socket client = new Socket(serverIP, 9999)) {
-            BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream(), "UTF-8"));
-
-            // Send to the server the option wanted
-            PrintWriter out = new PrintWriter(client.getOutputStream(),true);
-            out.println("Start");
-            out.flush();
-            //Init background process
-        }
+import android.view.View;
+import android.widget.Button;
 
 
-        //Receiving data and present them in screen
+public class MainActivity extends Activity {
 
-
-        /**Create graphic with statics like:
-         * how many websites were distinct visited (distinct because some websites load ads from another locations)
-         * percentage of ads in total
-         * percentage per website ???
-         * bandwidth consumption by the ads ???
-         */
-
-    }
+    Button start_button,stop_button;
+    int counterI,counterS;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        start_button = findViewById(R.id.start_button);
+        start_button.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                if(counterI == 0){
+                    StartClient myStartClient = new StartClient();
+                    myStartClient.execute();
+                    counterI++;
+                }else{
+                    System.out.println("Serviço Start já ativo");
+                }
+            }
+        });
+
+        stop_button = findViewById(R.id.stop_button);
+        stop_button.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                if(counterS == 0){
+                    StopClient myStopClient = new StopClient();
+                    myStopClient.execute();
+                    counterS++;
+                }else{
+                    System.out.println("Serviço Stop já ativo");
+                }
+            }
+        });
+
+
+
+
+
     }
 
 }

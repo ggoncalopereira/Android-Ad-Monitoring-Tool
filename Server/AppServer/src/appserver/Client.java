@@ -16,7 +16,7 @@ public class Client{
     
     public static void main(String argv[]) throws IOException, InterruptedException  {
         String answer;
-        Socket cs = new Socket("127.0.0.1", 9999);
+        Socket cs = new Socket("127.0.0.1", 9998);
         
         PrintWriter out = new PrintWriter(cs.getOutputStream(),true);
         BufferedReader inFromServer = new BufferedReader(new InputStreamReader(cs.getInputStream()));
