@@ -15,7 +15,6 @@ public class AppServer {
     static TreeSet<String> urls;
     static ArrayList<String> adsDB;
     static ServerSocket ss;
-    
     /**
      * @param args the command line arguments
      * @throws java.lang.Exception
@@ -24,7 +23,7 @@ public class AppServer {
         ss = new ServerSocket(9998);
         urls = new TreeSet<>();
         adsDB = new ArrayList<>();
-
+        
         while(true){
             Socket cs = ss.accept();
             System.out.println("Nova conexão");

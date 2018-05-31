@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
 
 public class MainActivity extends Activity {
@@ -17,14 +19,15 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         start_button = findViewById(R.id.start_button);
         start_button.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
                 if(counterI == 0){
-                    StartClient myStartClient = new StartClient();
+                    ProgressBar progressBar = findViewById(R.id.progressBar);
+                    TextView textResponse = findViewById(R.id.text_progress);
+                    StartClient myStartClient = new StartClient(progressBar,textResponse);
                     myStartClient.execute();
                     counterI++;
                 }else{
@@ -39,7 +42,9 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View arg0) {
                 if(counterS == 0){
-                    StopClient myStopClient = new StopClient();
+                    TextView textResponse = findViewById(R.id.text_percentage);
+                    TextView textResponse2 = findViewById(R.id.text_time);
+                    StopClient myStopClient = new StopClient(textResponse,textResponse2);
                     myStopClient.execute();
                     counterS++;
                 }else{
@@ -47,11 +52,5 @@ public class MainActivity extends Activity {
                 }
             }
         });
-
-
-
-
-
     }
-
 }

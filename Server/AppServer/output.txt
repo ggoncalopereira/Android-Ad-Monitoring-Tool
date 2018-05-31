@@ -1,0 +1,977 @@
+Proxy server listening at http://*:8080
+192.168.1.85:50278: clientconnect
+192.168.1.85:50280: clientconnect
+192.168.1.85:50280: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50280: clientdisconnect
+192.168.1.85:50281: clientconnect
+192.168.1.85:50287: clientconnect
+192.168.1.85:50287: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50287: clientdisconnect
+192.168.1.85:50282: clientconnect
+192.168.1.85:50282: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50282: clientdisconnect
+192.168.1.85:50283: clientconnect
+192.168.1.85:50283: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50283: clientdisconnect
+192.168.1.85:50286: clientconnect
+192.168.1.85:50284: clientconnect
+192.168.1.85:50288: clientconnect
+192.168.1.85:50288: CONNECT abola.pt:443
+ << Cannot establish TLS with client (sni: abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50288: clientdisconnect
+192.168.1.85:50278: clientdisconnect
+192.168.1.85:50281: clientdisconnect
+192.168.1.85:50286: CONNECT www.googleapis.com:443
+ << Cannot establish TLS with client (sni: www.googleapis.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50286: clientdisconnect
+192.168.1.85:50289: clientconnect
+192.168.1.85:50289: GET https://abola.pt/
+                 << 200 OK 49.64k
+192.168.1.85:50290: clientconnect
+192.168.1.85:50291: clientconnect
+192.168.1.85:50292: clientconnect
+192.168.1.85:50293: clientconnect
+192.168.1.85:50289: GET https://abola.pt/Content/stylesGeral?v=2huubGUp6hhGSBIhl59Va-nVEXan9I2kcfBiCEOiSIU1
+                 << 200 OK 89.56k
+192.168.1.85:50289: GET https://abola.pt/Content/scriptsHead?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1
+                 << 200 OK 5.45k
+192.168.1.85:50289: GET https://abola.pt/Scripts/slotsPublicidade/homepage.js
+                 << 200 OK 1.79k
+192.168.1.85:50290: CONNECT abola.pt:443
+ << Cannot establish TLS with client (sni: abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50289: GET https://abola.pt/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZJIqDRpQQa7GL3QjJgEtU13OEWEhtllyf347PZQUO38db2lDyA2&t=636396441760000000
+                 << 200 OK 6.04k
+192.168.1.85:50292: CONNECT abola.pt:443
+ << Cannot establish TLS with client (sni: abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50294: clientconnect
+192.168.1.85:50290: clientdisconnect
+192.168.1.85:50295: clientconnect
+192.168.1.85:50296: clientconnect
+192.168.1.85:50292: clientdisconnect
+192.168.1.85:50293: CONNECT abola.pt:443
+ << Cannot establish TLS with client (sni: abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50293: clientdisconnect
+192.168.1.85:50289: GET https://abola.pt/ScriptResource.axd?d=1HpV3OVB0CaEXoaafcqmhq34JU-3jORYMRdo3rW1hCDvFL138-pakzm6kWNUu4E77B-kj0LMIrKYq0CtxUvp3ZhFtGfKvCGN8ZZBNpJ7kRLoAeDTtKl4Wkza5dzjsv2C6RPGvA2&t=ffffffffbbdeec10
+                 << 200 OK 7.17k
+192.168.1.85:50291: CONNECT www.googletagservices.com:443
+ << Cannot establish TLS with client (sni: www.googletagservices.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50291: clientdisconnect
+192.168.1.85:50289: GET https://abola.pt/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yHySAqQmAIwhkm38fZJJA5NQgvPzM-4qhElM5wy2xuMGlCXbJUEilEr6r68wgeRfOSzluhlcDk296Vn4W-dZ_c0qOb4Yo0ov_Ptv-1Mj9ilWvyRc_4ZsKC0x30VKsxAHjO2LrAA1&t=ffffffffd5bd3df4
+                 << 200 OK 33.61k
+192.168.1.85:50295: CONNECT abola.pt:443
+ << Cannot establish TLS with client (sni: abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50294: CONNECT abola.pt:443
+ << Cannot establish TLS with client (sni: abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50295: clientdisconnect
+192.168.1.85:50294: clientdisconnect
+192.168.1.85:50296: GET https://abola.pt/ScriptResource.axd?d=Jw6tUGWnA15YEa3ai3FadJWE1O3cGajzH1bwaTVpTER1wvX9OvEB_wwZ2lKr3QPvMYMUgDavbHRRYPJG4EZ0eXULt-_ODCLYNwYbPvEbaB8HHCy8T0YdqshBE2CznCvtTSjOBeVIJXCEM4dwL1oCHZD4Ypk1&t=ffffffffd5bd3df4
+                 << 200 OK 9.87k
+192.168.1.85:50289: GET https://abola.pt/Content/scriptsGeral?v=aMgY3_glV0OKULeVF8VztW-gC1YTEmkqPB0w2Bg6p4c1
+                 << 200 OK 120.08k
+192.168.1.85:50297: clientconnect
+192.168.1.85:50289: GET https://abola.pt/img/logoabola.png
+                 << 200 OK 7.89k
+192.168.1.85:50298: clientconnect
+192.168.1.85:50298: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50299: clientconnect
+192.168.1.85:50298: clientdisconnect
+192.168.1.85:50297: CONNECT fonts.gstatic.com:443
+ << Cannot establish TLS with client (sni: fonts.gstatic.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50300: clientconnect
+192.168.1.85:50297: clientdisconnect
+192.168.1.85:50301: clientconnect
+192.168.1.85:50302: clientconnect
+192.168.1.85:50303: clientconnect
+192.168.1.85:50304: clientconnect
+192.168.1.85:50299: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50305: clientconnect
+192.168.1.85:50299: clientdisconnect
+192.168.1.85:50289: GET https://abola.pt/img/bandeiras/PORTUGAL.JPG
+                 << 200 OK 1.87k
+192.168.1.85:50296: GET https://abola.pt/img/bandeiras/ESPANHA.JPG
+                 << 200 OK 1.69k
+192.168.1.85:50300: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50303: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50306: clientconnect
+192.168.1.85:50304: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50305: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50300: clientdisconnect
+192.168.1.85:50303: clientdisconnect
+192.168.1.85:50304: clientdisconnect
+192.168.1.85:50305: clientdisconnect
+192.168.1.85:50307: clientconnect
+192.168.1.85:50308: clientconnect
+192.168.1.85:50309: clientconnect
+192.168.1.85:50310: clientconnect
+192.168.1.85:50289: GET https://abola.pt/img/bandeiras/INGLATERRA.JPG
+                 << 200 OK 1.31k
+192.168.1.85:50296: GET https://abola.pt/img/bandeiras/ITALIA.JPG
+                 << 200 OK 1.12k
+192.168.1.85:50301: GET https://abola.pt/img/bandeiras/ALEMANHA.JPG
+                 << 200 OK 3.05k
+192.168.1.85:50302: GET https://abola.pt/img/bandeiras/FRANCA.JPG
+                 << 200 OK 1017b
+192.168.1.85:50306: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50311: clientconnect
+192.168.1.85:50307: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50308: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50309: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50312: clientconnect
+192.168.1.85:50310: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50306: clientdisconnect
+192.168.1.85:50307: clientdisconnect
+192.168.1.85:50309: clientdisconnect
+192.168.1.85:50308: clientdisconnect
+192.168.1.85:50313: clientconnect
+192.168.1.85:50310: clientdisconnect
+192.168.1.85:50314: clientconnect
+192.168.1.85:50315: clientconnect
+192.168.1.85:50316: clientconnect
+192.168.1.85:50317: clientconnect
+192.168.1.85:50296: GET https://abola.pt/img/bandeiras/BRASIL.JPG
+                 << 200 OK 2.18k
+192.168.1.85:50318: clientconnect
+192.168.1.85:50289: GET https://abola.pt/s.html
+                 << 200 OK 208b
+192.168.1.85:50302: GET https://abola.pt/img/marcas.png
+                 << 200 OK 3.41k
+192.168.1.85:50301: GET https://abola.pt/img/sprite-flags-16x16.png
+                 << 200 OK 40.24k
+192.168.1.85:50313: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50313: clientdisconnect
+192.168.1.85:50289: GET https://abola.pt/fonts/abola-icons.woff
+                 << 200 OK 6.62k
+192.168.1.85:50296: GET https://abola.pt/fonts/fontawesome-webfont.woff2?v=4.7.0
+                 << 200 OK 75.39k
+192.168.1.85:50311: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50311: clientdisconnect
+192.168.1.85:50317: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50316: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50314: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50319: clientconnect
+192.168.1.85:50315: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50318: CONNECT fonts.gstatic.com:443
+ << Cannot establish TLS with client (sni: fonts.gstatic.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50320: clientconnect
+192.168.1.85:50317: clientdisconnect
+192.168.1.85:50316: clientdisconnect
+192.168.1.85:50314: clientdisconnect
+192.168.1.85:50321: clientconnect
+192.168.1.85:50315: clientdisconnect
+192.168.1.85:50318: clientdisconnect
+192.168.1.85:50322: clientconnect
+192.168.1.85:50323: clientconnect
+192.168.1.85:50324: clientconnect
+192.168.1.85:50325: clientconnect
+192.168.1.85:50326: clientconnect
+192.168.1.85:50319: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50312: CONNECT secure.netscope.marktest.pt:443
+ << Cannot establish TLS with client (sni: secure.netscope.marktest.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50319: clientdisconnect
+192.168.1.85:50322: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50327: clientconnect
+192.168.1.85:50323: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50322: clientdisconnect
+192.168.1.85:50328: clientconnect
+192.168.1.85:50323: clientdisconnect
+192.168.1.85:50329: clientconnect
+192.168.1.85:50326: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50330: clientconnect
+192.168.1.85:50312: clientdisconnect
+192.168.1.85:50326: clientdisconnect
+192.168.1.85:50325: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50325: clientdisconnect
+192.168.1.85:50324: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50320: CONNECT fonts.gstatic.com:443
+ << Cannot establish TLS with client (sni: fonts.gstatic.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50321: CONNECT fonts.gstatic.com:443
+ << Cannot establish TLS with client (sni: fonts.gstatic.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50284: clientdisconnect
+192.168.1.85:50324: clientdisconnect
+192.168.1.85:50331: clientconnect
+192.168.1.85:50332: clientconnect
+192.168.1.85:50321: clientdisconnect
+192.168.1.85:50320: clientdisconnect
+192.168.1.85:50327: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50328: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50329: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50330: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50327: clientdisconnect
+192.168.1.85:50333: clientconnect
+192.168.1.85:50328: clientdisconnect
+192.168.1.85:50330: clientdisconnect
+192.168.1.85:50329: clientdisconnect
+192.168.1.85:50334: clientconnect
+192.168.1.85:50335: clientconnect
+192.168.1.85:50336: clientconnect
+192.168.1.85:50331: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50337: clientconnect
+192.168.1.85:50331: clientdisconnect
+192.168.1.85:50332: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50338: clientconnect
+192.168.1.85:50332: clientdisconnect
+192.168.1.85:50333: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50339: clientconnect
+192.168.1.85:50333: clientdisconnect
+192.168.1.85:50336: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50335: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50340: clientconnect
+192.168.1.85:50334: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50337: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50338: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50336: clientdisconnect
+192.168.1.85:50335: clientdisconnect
+192.168.1.85:50334: clientdisconnect
+192.168.1.85:50337: clientdisconnect
+192.168.1.85:50338: clientdisconnect
+192.168.1.85:50341: clientconnect
+192.168.1.85:50342: clientconnect
+192.168.1.85:50343: clientconnect
+192.168.1.85:50339: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50344: clientconnect
+192.168.1.85:50345: clientconnect
+192.168.1.85:50339: clientdisconnect
+192.168.1.85:50346: clientconnect
+192.168.1.85:50342: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50342: clientdisconnect
+192.168.1.85:50341: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50343: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50340: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50344: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50345: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50346: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50341: clientdisconnect
+192.168.1.85:50343: clientdisconnect
+192.168.1.85:50344: clientdisconnect
+192.168.1.85:50347: clientconnect
+192.168.1.85:50346: clientdisconnect
+192.168.1.85:50345: clientdisconnect
+192.168.1.85:50340: clientdisconnect
+192.168.1.85:50348: clientconnect
+192.168.1.85:50349: clientconnect
+192.168.1.85:50350: clientconnect
+192.168.1.85:50351: clientconnect
+192.168.1.85:50347: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50347: clientdisconnect
+192.168.1.85:50348: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50348: clientdisconnect
+192.168.1.85:50349: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50350: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50351: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50349: clientdisconnect
+192.168.1.85:50350: clientdisconnect
+192.168.1.85:50351: clientdisconnect
+192.168.1.85:50296: GET https://abola.pt/uc/Desporto/ListaJogos.aspx?t=&tsp=1527808925
+                 << 200 OK 1.71k
+192.168.1.85:50352: clientconnect
+192.168.1.85:50353: clientconnect
+192.168.1.85:50352: CONNECT sb.scorecardresearch.com:443
+ << Cannot establish TLS with client (sni: sb.scorecardresearch.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50352: clientdisconnect
+192.168.1.85:50353: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50353: clientdisconnect
+192.168.1.85:50354: clientconnect
+192.168.1.85:50355: clientconnect
+192.168.1.85:50354: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50354: clientdisconnect
+192.168.1.85:50355: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50355: clientdisconnect
+192.168.1.85:50296: GET https://abola.pt/uc/Desporto/ListaClubes.aspx?e=5759&tsp=1527808926
+                 << 200 OK 5.88k
+192.168.1.85:50356: clientconnect
+192.168.1.85:50357: clientconnect
+192.168.1.85:50358: clientconnect
+192.168.1.85:50359: clientconnect
+192.168.1.85:50360: clientconnect
+192.168.1.85:50361: clientconnect
+192.168.1.85:50356: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50356: clientdisconnect
+192.168.1.85:50362: clientconnect
+192.168.1.85:50357: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50358: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50359: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50361: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50362: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50363: clientconnect
+192.168.1.85:50360: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50364: clientconnect
+192.168.1.85:50357: clientdisconnect
+192.168.1.85:50365: clientconnect
+192.168.1.85:50358: clientdisconnect
+192.168.1.85:50366: clientconnect
+192.168.1.85:50361: clientdisconnect
+192.168.1.85:50367: clientconnect
+192.168.1.85:50359: clientdisconnect
+192.168.1.85:50360: clientdisconnect
+192.168.1.85:50362: clientdisconnect
+192.168.1.85:50368: clientconnect
+192.168.1.85:50363: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50369: clientconnect
+192.168.1.85:50363: clientdisconnect
+192.168.1.85:50365: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50367: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50366: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50368: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50364: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50370: clientconnect
+192.168.1.85:50371: clientconnect
+192.168.1.85:50365: clientdisconnect
+192.168.1.85:50372: clientconnect
+192.168.1.85:50366: clientdisconnect
+192.168.1.85:50373: clientconnect
+192.168.1.85:50367: clientdisconnect
+192.168.1.85:50368: clientdisconnect
+192.168.1.85:50364: clientdisconnect
+192.168.1.85:50374: clientconnect
+192.168.1.85:50369: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50369: clientdisconnect
+192.168.1.85:50372: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50373: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50370: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50371: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50374: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50372: clientdisconnect
+192.168.1.85:50373: clientdisconnect
+192.168.1.85:50370: clientdisconnect
+192.168.1.85:50371: clientdisconnect
+192.168.1.85:50374: clientdisconnect
+192.168.1.85:50296: GET https://abola.pt/img/icons/android-icon-192x192.png
+                 << 200 OK 30.92k
+192.168.1.85:50289: GET https://abola.pt/img/icons/apple-icon-180x180.png
+                 << 200 OK 30.56k
+192.168.1.85:50375: clientconnect
+192.168.1.85:50376: clientconnect
+192.168.1.85:50375: CONNECT www.gstatic.com:443
+ << Cannot establish TLS with client (sni: www.gstatic.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50375: clientdisconnect
+192.168.1.85:50376: CONNECT chromecontentsuggestions-pa.googleapis.com:443
+ << Cannot establish TLS with client (sni: chromecontentsuggestions-pa.googleapis.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50376: clientdisconnect
+192.168.1.85:50377: clientconnect
+192.168.1.85:50378: clientconnect
+192.168.1.85:50379: clientconnect
+192.168.1.85:50380: clientconnect
+192.168.1.85:50381: clientconnect
+192.168.1.85:50379: GET http://www.custojusto.pt/img/iphone_icon_custojusto.png
+                 << 302 Moved Temporarily 161b
+192.168.1.85:50382: clientconnect
+192.168.1.85:50285: clientconnect
+192.168.1.85:50383: clientconnect
+192.168.1.85:50380: CONNECT www.gstatic.com:443
+ << Cannot establish TLS with client (sni: www.gstatic.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50377: CONNECT www.worten.pt:443
+ << Cannot establish TLS with client (sni: www.worten.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50381: CONNECT encrypted-tbn0.gstatic.com:443
+ << Cannot establish TLS with client (sni: encrypted-tbn0.gstatic.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50378: CONNECT static.cgd.pt:443
+ << Cannot establish TLS with client (sni: static.cgd.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50377: clientdisconnect
+192.168.1.85:50380: clientdisconnect
+192.168.1.85:50378: clientdisconnect
+192.168.1.85:50381: clientdisconnect
+192.168.1.85:50382: CONNECT www.custojusto.pt:443
+ << Cannot establish TLS with client (sni: www.custojusto.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50382: clientdisconnect
+192.168.1.85:50383: CONNECT www.google.pt:443
+ << Cannot establish TLS with client (sni: www.google.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50383: clientdisconnect
+192.168.1.85:50384: clientconnect
+192.168.1.85:50385: clientconnect
+192.168.1.85:50385: CONNECT www.google.pt:443
+ << Cannot establish TLS with client (sni: www.google.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50384: CONNECT s2.googleusercontent.com:443
+ << Cannot establish TLS with client (sni: s2.googleusercontent.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50385: clientdisconnect
+192.168.1.85:50384: clientdisconnect
+192.168.1.85:50285: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50285: clientdisconnect
+192.168.1.85:50386: clientconnect
+192.168.1.85:50386: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50386: clientdisconnect
+192.168.1.85:50387: clientconnect
+192.168.1.85:50387: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50387: clientdisconnect
+192.168.1.85:50388: clientconnect
+192.168.1.85:50388: CONNECT www.google.pt:443
+ << Cannot establish TLS with client (sni: www.google.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50388: clientdisconnect
+192.168.1.85:50389: clientconnect
+192.168.1.85:50390: clientconnect
+192.168.1.85:50389: CONNECT www.google.pt:443
+ << Cannot establish TLS with client (sni: www.google.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50389: clientdisconnect
+192.168.1.85:50390: CONNECT www.google.pt:443
+ << Cannot establish TLS with client (sni: www.google.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50390: clientdisconnect
+192.168.1.85:50391: clientconnect
+192.168.1.85:50391: CONNECT www.google.pt:443
+ << Cannot establish TLS with client (sni: www.google.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50391: clientdisconnect
+192.168.1.85:50392: clientconnect
+192.168.1.85:50393: clientconnect
+192.168.1.85:50393: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50393: clientdisconnect
+192.168.1.85:50392: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50392: clientdisconnect
+192.168.1.85:50279: clientconnect
+192.168.1.85:50394: clientconnect
+192.168.1.85:50395: clientconnect
+192.168.1.85:50394: CONNECT www.google.pt:443
+ << Cannot establish TLS with client (sni: www.google.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50395: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50394: clientdisconnect
+192.168.1.85:50395: clientdisconnect
+192.168.1.85:50396: clientconnect
+192.168.1.85:50396: CONNECT www.google.pt:443
+ << Cannot establish TLS with client (sni: www.google.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50396: clientdisconnect
+192.168.1.85:50397: clientconnect
+192.168.1.85:50397: CONNECT www.google.pt:443
+ << Cannot establish TLS with client (sni: www.google.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50397: clientdisconnect
+192.168.1.85:50398: clientconnect
+192.168.1.85:50398: CONNECT www.google.pt:443
+ << Cannot establish TLS with client (sni: www.google.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50398: clientdisconnect
+192.168.1.85:50399: clientconnect
+192.168.1.85:50399: CONNECT www.google.pt:443
+ << Cannot establish TLS with client (sni: www.google.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50399: clientdisconnect
+192.168.1.85:50400: clientconnect
+192.168.1.85:50401: clientconnect
+192.168.1.85:50402: clientconnect
+192.168.1.85:50403: clientconnect
+192.168.1.85:50404: clientconnect
+192.168.1.85:50401: CONNECT jn.pt:443
+ << Cannot establish TLS with client (sni: jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50400: CONNECT jn.pt:443
+ << Cannot establish TLS with client (sni: jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50402: CONNECT jn.pt:443
+ << Cannot establish TLS with client (sni: jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50404: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50403: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50400: clientdisconnect
+192.168.1.85:50401: clientdisconnect
+192.168.1.85:50402: clientdisconnect
+192.168.1.85:50404: clientdisconnect
+192.168.1.85:50403: clientdisconnect
+192.168.1.85:50279: clientdisconnect
+192.168.1.85:50405: clientconnect
+192.168.1.85:50406: clientconnect
+192.168.1.85:50407: clientconnect
+192.168.1.85:50405: CONNECT jn.pt:443
+ << Cannot establish TLS with client (sni: jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50407: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50405: clientdisconnect
+192.168.1.85:50407: clientdisconnect
+192.168.1.85:50406: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50406: clientdisconnect
+192.168.1.85:50408: clientconnect
+192.168.1.85:50408: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50408: clientdisconnect
+192.168.1.85:50409: clientconnect
+192.168.1.85:50409: GET https://jn.pt/
+                 << 301 Moved Permanently 185b
+192.168.1.85:50410: clientconnect
+192.168.1.85:50410: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50410: clientdisconnect
+192.168.1.85:50411: clientconnect
+192.168.1.85:50411: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50411: clientdisconnect
+192.168.1.85:50412: clientconnect
+192.168.1.85:50412: GET https://www.jn.pt/
+                 << 200 OK 35.42k
+192.168.1.85:50413: clientconnect
+192.168.1.85:50414: clientconnect
+192.168.1.85:50412: GET https://www.jn.pt/common/bundles/jn-css-smartbanner.css?v=41Xm6IBqzthyv68m4n7pPwWvfBCG-VnqOTlG_u2ArfM1
+                 << 200 OK 1.07k
+192.168.1.85:50415: clientconnect
+192.168.1.85:50416: clientconnect
+192.168.1.85:50417: clientconnect
+192.168.1.85:50418: clientconnect
+192.168.1.85:50419: clientconnect
+192.168.1.85:50420: clientconnect
+192.168.1.85:50421: clientconnect
+192.168.1.85:50422: clientconnect
+192.168.1.85:50423: clientconnect
+192.168.1.85:50412: GET https://www.jn.pt/common/bundles/jn-css-core.css?v=oYk7z631wnsaRgviuIKjPCL7MUuBVn1N-emLYO7Ki1U1
+                 << 200 OK 180.39k
+192.168.1.85:50414: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50415: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50414: clientdisconnect
+192.168.1.85:50413: CONNECT fonts.googleapis.com:443
+ << Cannot establish TLS with client (sni: fonts.googleapis.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50416: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50415: clientdisconnect
+192.168.1.85:50413: clientdisconnect
+192.168.1.85:50416: clientdisconnect
+192.168.1.85:50424: clientconnect
+192.168.1.85:50425: clientconnect
+192.168.1.85:50426: clientconnect
+192.168.1.85:50427: clientconnect
+192.168.1.85:50428: clientconnect
+192.168.1.85:50429: clientconnect
+192.168.1.85:50430: clientconnect
+192.168.1.85:50417: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50425: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50421: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50431: clientconnect
+192.168.1.85:50432: clientconnect
+192.168.1.85:50433: clientconnect
+192.168.1.85:50417: clientdisconnect
+192.168.1.85:50425: clientdisconnect
+192.168.1.85:50421: clientdisconnect
+192.168.1.85:50419: CONNECT api.peer5.com:443
+ << Cannot establish TLS with client (sni: api.peer5.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50420: CONNECT cdns.gigya.com:443
+ << Cannot establish TLS with client (sni: cdns.gigya.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50419: clientdisconnect
+192.168.1.85:50429: CONNECT api.peer5.com:443
+ << Cannot establish TLS with client (sni: api.peer5.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50427: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50423: CONNECT cdn.onesignal.com:443
+ << Cannot establish TLS with client (sni: cdn.onesignal.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50420: clientdisconnect
+192.168.1.85:50422: CONNECT scdn.cxense.com:443
+ << Cannot establish TLS with client (sni: scdn.cxense.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50424: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50434: clientconnect
+192.168.1.85:50418: CONNECT content.jwplatform.com:443
+ << Cannot establish TLS with client (sni: content.jwplatform.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50435: clientconnect
+192.168.1.85:50427: clientdisconnect
+192.168.1.85:50423: clientdisconnect
+192.168.1.85:50429: clientdisconnect
+192.168.1.85:50424: clientdisconnect
+192.168.1.85:50422: clientdisconnect
+192.168.1.85:50418: clientdisconnect
+192.168.1.85:50428: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50436: clientconnect
+192.168.1.85:50426: CONNECT pagead2.googlesyndication.com:443
+ << Cannot establish TLS with client (sni: pagead2.googlesyndication.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50428: clientdisconnect
+192.168.1.85:50412: GET https://www.jn.pt/common/scripts/cxense.js
+                 << 200 OK 738b
+192.168.1.85:50426: clientdisconnect
+192.168.1.85:50433: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50430: CONNECT static.vilynx.com:443
+ << Cannot establish TLS with client (sni: static.vilynx.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50435: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50437: clientconnect
+192.168.1.85:50438: clientconnect
+192.168.1.85:50434: CONNECT www.jn.pt:443
+ << Cannot establish TLS with client (sni: www.jn.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50439: clientconnect
+192.168.1.85:50434: clientdisconnect
+192.168.1.85:50430: clientdisconnect
+192.168.1.85:50435: clientdisconnect
+192.168.1.85:50433: clientdisconnect
+192.168.1.85:50431: GET https://www.jn.pt/common/bundles/jn-css-master.css?v=sjuNCMVh3hkkEuPkraDqDu0x5TvCYU1DkZaYass8B7Y1
+                 << 200 OK 11.91k
+192.168.1.85:50436: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50436: clientdisconnect
+192.168.1.85:50432: GET https://www.jn.pt/common/bundles/jn-css-homescreen.css?v=w0eY-YP0U8ySExibI_mNQ-c-ukVwzQzBlc53_fnUtwA1
+                 << 200 OK 1.13k
+192.168.1.85:50412: GET https://www.jn.pt/bundles/jn-js-core.js?v=gqMYRixtVZX8lmFCRUR0r4DEXasM6u8X-jeKBYT1j5I1
+                 << 200 OK 99.12k
+192.168.1.85:50438: GET https://www.jn.pt/common/scripts/jquery.smartbanner.js
+                 << 200 OK 4.41k
+192.168.1.85:50431: GET https://www.jn.pt/bundles/jn-js-homescreen.js?v=3MIkpB9sTRW4WJIrBz1KCZdxW94jvm2gddscGJ1oCvk1
+                 << 200 OK 7.49k
+192.168.1.85:50437: GET https://www.jn.pt/common/scripts/gy.js
+                 << 200 OK 46.36k
+192.168.1.85:50439: GET https://www.jn.pt/bundles/jn-js-master.js?v=nbgT05jPehXF2J_M5YWijjEL3_pSdIiGZp3uRVU6fzY1
+                 << 200 OK 21.44k
+192.168.1.85:50440: clientconnect
+192.168.1.85:50440: CONNECT comunidade.globalmediagroup.pt:443
+ << Cannot establish TLS with client (sni: comunidade.globalmediagroup.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50440: clientdisconnect
+192.168.1.85:50437: GET https://www.jn.pt/common/scripts/fingerprint2.min.js
+                 << 200 OK 10.05k
+192.168.1.85:50441: clientconnect
+192.168.1.85:50442: clientconnect
+192.168.1.85:50443: clientconnect
+192.168.1.85:50444: clientconnect
+192.168.1.85:50445: clientconnect
+192.168.1.85:50446: clientconnect
+192.168.1.85:50447: clientconnect
+192.168.1.85:50448: clientconnect
+192.168.1.85:50449: clientconnect
+192.168.1.85:50450: clientconnect
+192.168.1.85:50451: clientconnect
+192.168.1.85:50441: CONNECT code3.adtlgc.com:443
+ << Cannot establish TLS with client (sni: code3.adtlgc.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50452: clientconnect
+192.168.1.85:50441: clientdisconnect
+192.168.1.85:50442: CONNECT www.npttech.com:443
+ << Cannot establish TLS with client (sni: www.npttech.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50442: clientdisconnect
+192.168.1.85:50453: clientconnect
+192.168.1.85:50454: clientconnect
+192.168.1.85:50453: CONNECT www.googletagservices.com:443
+ << Cannot establish TLS with client (sni: www.googletagservices.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50452: CONNECT www.google-analytics.com:443
+ << Cannot establish TLS with client (sni: www.google-analytics.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50445: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50446: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50448: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50449: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50443: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50444: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50453: clientdisconnect
+192.168.1.85:50452: clientdisconnect
+192.168.1.85:50451: CONNECT cdn4.wibbitz.com:443
+ << Cannot establish TLS with client (sni: cdn4.wibbitz.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50447: CONNECT ad-dev.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: ad-dev.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50445: clientdisconnect
+192.168.1.85:50446: clientdisconnect
+192.168.1.85:50449: clientdisconnect
+192.168.1.85:50448: clientdisconnect
+192.168.1.85:50443: clientdisconnect
+192.168.1.85:50444: clientdisconnect
+192.168.1.85:50450: CONNECT eu-gmtdmp.gd1.mookie1.com:443
+ << Cannot establish TLS with client (sni: eu-gmtdmp.gd1.mookie1.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50451: clientdisconnect
+192.168.1.85:50447: clientdisconnect
+192.168.1.85:50455: clientconnect
+192.168.1.85:50450: clientdisconnect
+192.168.1.85:50456: clientconnect
+192.168.1.85:50457: clientconnect
+192.168.1.85:50458: clientconnect
+192.168.1.85:50454: CONNECT services.trugaze.io:443
+ << Cannot establish TLS with client (sni: services.trugaze.io): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50455: CONNECT experience.tinypass.com:443
+ << Cannot establish TLS with client (sni: experience.tinypass.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50455: clientdisconnect
+192.168.1.85:50459: clientconnect
+192.168.1.85:50454: clientdisconnect
+192.168.1.85:50460: clientconnect
+192.168.1.85:50461: clientconnect
+192.168.1.85:50462: clientconnect
+192.168.1.85:50458: CONNECT connect.facebook.net:443
+ << Cannot establish TLS with client (sni: connect.facebook.net): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50456: CONNECT js.datadome.co:443
+ << Cannot establish TLS with client (sni: js.datadome.co): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50458: clientdisconnect
+192.168.1.85:50463: clientconnect
+192.168.1.85:50464: clientconnect
+192.168.1.85:50465: clientconnect
+192.168.1.85:50457: CONNECT secure.netscope.marktest.pt:443
+ << Cannot establish TLS with client (sni: secure.netscope.marktest.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50456: clientdisconnect
+192.168.1.85:50459: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50457: clientdisconnect
+192.168.1.85:50459: clientdisconnect
+192.168.1.85:50460: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50461: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50462: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50460: clientdisconnect
+192.168.1.85:50461: clientdisconnect
+192.168.1.85:50462: clientdisconnect
+192.168.1.85:50463: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50465: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50464: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50463: clientdisconnect
+192.168.1.85:50465: clientdisconnect
+192.168.1.85:50464: clientdisconnect
+192.168.1.85:50466: clientconnect
+192.168.1.85:50466: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50467: clientconnect
+192.168.1.85:50466: clientdisconnect
+192.168.1.85:50467: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50467: clientdisconnect
+192.168.1.85:50468: clientconnect
+192.168.1.85:50469: clientconnect
+192.168.1.85:50470: clientconnect
+192.168.1.85:50471: clientconnect
+192.168.1.85:50469: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50468: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50470: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50469: clientdisconnect
+192.168.1.85:50468: clientdisconnect
+192.168.1.85:50470: clientdisconnect
+192.168.1.85:50471: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50471: clientdisconnect
+192.168.1.85:50437: GET https://www.jn.pt/common/images/btn-bg-sprite-1.png
+                 << 301 Moved Permanently 185b
+192.168.1.85:50472: clientconnect
+192.168.1.85:50473: clientconnect
+192.168.1.85:50472: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50474: clientconnect
+192.168.1.85:50473: CONNECT ad-dev.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: ad-dev.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50472: clientdisconnect
+192.168.1.85:50473: clientdisconnect
+192.168.1.85:50474: CONNECT cdn.mookie1.com:443
+ << Cannot establish TLS with client (sni: cdn.mookie1.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50474: clientdisconnect
+192.168.1.85:50475: clientconnect
+192.168.1.85:50476: clientconnect
+192.168.1.85:50476: CONNECT comunidade.globalmediagroup.pt:443
+ << Cannot establish TLS with client (sni: comunidade.globalmediagroup.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50476: clientdisconnect
+192.168.1.85:50475: CONNECT www.youtube.com:443
+ << Cannot establish TLS with client (sni: www.youtube.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50475: clientdisconnect
+192.168.1.85:50477: clientconnect
+192.168.1.85:50478: clientconnect
+192.168.1.85:50479: clientconnect
+192.168.1.85:50480: clientconnect
+192.168.1.85:50481: clientconnect
+192.168.1.85:50477: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50484: clientconnect
+192.168.1.85:50485: clientconnect
+192.168.1.85:50482: clientconnect
+192.168.1.85:50483: clientconnect
+192.168.1.85:50477: clientdisconnect
+192.168.1.85:50486: clientconnect
+192.168.1.85:50478: CONNECT www.youtube.com:443
+ << Cannot establish TLS with client (sni: www.youtube.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50478: clientdisconnect
+192.168.1.85:50479: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50479: clientdisconnect
+192.168.1.85:50486: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50486: clientdisconnect
+192.168.1.85:50482: CONNECT cstatic.weborama.fr:443
+ << Cannot establish TLS with client (sni: cstatic.weborama.fr): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50482: clientdisconnect
+192.168.1.85:50483: CONNECT bigsea.solution.weborama.fr:443
+ << Cannot establish TLS with client (sni: bigsea.solution.weborama.fr): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50484: CONNECT wam.solution.weborama.fr:443
+ << Cannot establish TLS with client (sni: wam.solution.weborama.fr): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50485: CONNECT wam.solution.weborama.fr:443
+ << Cannot establish TLS with client (sni: wam.solution.weborama.fr): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50481: CONNECT globalmediaptanalytics.solution.weborama.fr:443
+ << Cannot establish TLS with client (sni: globalmediaptanalytics.solution.weborama.fr): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50483: clientdisconnect
+192.168.1.85:50484: clientdisconnect
+192.168.1.85:50485: clientdisconnect
+192.168.1.85:50481: clientdisconnect
+192.168.1.85:50487: clientconnect
+192.168.1.85:50488: clientconnect
+192.168.1.85:50489: clientconnect
+192.168.1.85:50490: clientconnect
+192.168.1.85:50487: CONNECT static.chartbeat.com:443
+ << Cannot establish TLS with client (sni: static.chartbeat.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50487: clientdisconnect
+192.168.1.85:50488: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50489: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50491: clientconnect
+192.168.1.85:50490: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50492: clientconnect
+192.168.1.85:50488: clientdisconnect
+192.168.1.85:50489: clientdisconnect
+192.168.1.85:50490: clientdisconnect
+192.168.1.85:50493: clientconnect
+192.168.1.85:50491: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50492: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50494: clientconnect
+192.168.1.85:50495: clientconnect
+192.168.1.85:50491: clientdisconnect
+192.168.1.85:50492: clientdisconnect
+192.168.1.85:50493: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50496: clientconnect
+192.168.1.85:50497: clientconnect
+192.168.1.85:50493: clientdisconnect
+192.168.1.85:50494: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50495: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50498: clientconnect
+192.168.1.85:50499: clientconnect
+192.168.1.85:50494: clientdisconnect
+192.168.1.85:50497: CONNECT clients1.google.com:443
+ << Cannot establish TLS with client (sni: clients1.google.com): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50495: clientdisconnect
+192.168.1.85:50497: clientdisconnect
+192.168.1.85:50496: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50500: clientconnect
+192.168.1.85:50496: clientdisconnect
+192.168.1.85:50498: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50499: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50501: clientconnect
+192.168.1.85:50502: clientconnect
+192.168.1.85:50498: clientdisconnect
+192.168.1.85:50499: clientdisconnect
+192.168.1.85:50500: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50503: clientconnect
+192.168.1.85:50500: clientdisconnect
+192.168.1.85:50501: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50502: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50504: clientconnect
+192.168.1.85:50505: clientconnect
+192.168.1.85:50501: clientdisconnect
+192.168.1.85:50502: clientdisconnect
+192.168.1.85:50503: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50506: clientconnect
+192.168.1.85:50503: clientdisconnect
+192.168.1.85:50504: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50505: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50507: clientconnect
+192.168.1.85:50504: clientdisconnect
+192.168.1.85:50506: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50505: clientdisconnect
+192.168.1.85:50506: clientdisconnect
+192.168.1.85:50507: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50507: clientdisconnect
+192.168.1.85:50508: clientconnect
+192.168.1.85:50508: CONNECT static.globalnoticias.pt:443
+ << Cannot establish TLS with client (sni: static.globalnoticias.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50508: clientdisconnect
+192.168.1.85:50509: clientconnect
+192.168.1.85:50509: CONNECT www.abola.pt:443
+ << Cannot establish TLS with client (sni: www.abola.pt): TlsException("(-1, 'Unexpected EOF')",)
+192.168.1.85:50509: clientdisconnect
+192.168.1.85:50379: clientdisconnect
+192.168.1.85:50296: clientdisconnect
+192.168.1.85:50301: clientdisconnect
+192.168.1.85:50302: clientdisconnect
+192.168.1.85:50289: clientdisconnect
+192.168.1.85:50480: clientdisconnect
+192.168.1.85:50409: clientdisconnect
+192.168.1.85:50412: clientdisconnect
+192.168.1.85:50437: clientdisconnect
+192.168.1.85:50438: clientdisconnect
+192.168.1.85:50431: clientdisconnect
+192.168.1.85:50432: clientdisconnect
+192.168.1.85:50439: clientdisconnect
